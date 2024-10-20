@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.get("/", (req, res) => {
-    res.status(200).send("Updated?");
+    res.status(200).send("Should automatically update");
 });
 
 
